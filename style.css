@@ -95,3 +95,9 @@ button:active {
     color: #333;
     border-radius: 10px;
 }
+
+@media only screen and (max-width: 600px) {
+    .calculation {
+        width: 95%;
+    }
+}
