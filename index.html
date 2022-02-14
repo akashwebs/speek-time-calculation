@@ -13,23 +13,31 @@
 </head>
 
 <body>
-    <section class="container">
-        <div class="border border-2 border-primary rounded p-2 mb-3">
-            <h2 id="displayTotal">Total Calculation </h2>
-        </div>
-        <div>
+    <section class="container d-flex">
+        <div class="calculation">
 
-            <input id="hours" type="text" class="form-control mb-2" placeholder="Type Hours">
+            <div class="monitor ">
+                <h2 id="displayTotal">Total Calculation </h2>
+            </div>
+            <div>
 
-            <input id="miniutes" type="text" class="form-control mb-2" placeholder="Type Minutes">
-            <input id="seconds" type="text" class="form-control mb-2" placeholder="Type Seconds">
-        </div>
+                <input id="hours" type="text" class="form-control mb-2" placeholder="Type Hours">
 
-        <button onclick="calculation()">
+
+                <input id="miniutes" type="text" class="form-control mb-2" placeholder="Type Minutes">
+                <input id="seconds" type="text" class="form-control mb-2" placeholder="Type Seconds">
+            </div>
+
+            <button onclick="calculation()">
             <span>Calculate</span>
             <div class="liquid"></div>
           </button>
+        </div>
     </section>
+
+
+    <!--  -->
+
     <script src="js/app.js"></script>
 </body>
 
